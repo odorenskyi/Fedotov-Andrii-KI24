@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\lab08",
+    "\\lab08\\prj",
+    "\\lab08\\prj\\Fedotov-task_8_1"
   ],
-  "SelectedNode": "\\lab08",
+  "SelectedNode": "\\lab08\\prj\\Fedotov-task_8_1\\Fedotov-task_8_1.cpp",
   "PreviewInSolutionExplorer": false
 }

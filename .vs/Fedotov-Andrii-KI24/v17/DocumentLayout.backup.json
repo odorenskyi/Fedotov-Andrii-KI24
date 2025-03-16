@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab08\\prj\\Fedotov-task_8_1\\Fedotov-task_8_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab08\\prj\\Fedotov-task_8_1\\Fedotov-task_8_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fedotov-task_8_1.cpp",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab08\\prj\\Fedotov-task_8_1\\Fedotov-task_8_1.cpp",
+              "RelativeDocumentMoniker": "lab08\\prj\\Fedotov-task_8_1\\Fedotov-task_8_1.cpp",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab08\\prj\\Fedotov-task_8_1\\Fedotov-task_8_1.cpp",
+              "RelativeToolTip": "lab08\\prj\\Fedotov-task_8_1\\Fedotov-task_8_1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-16T15:09:54.548Z",
+              "EditorCaption": ""
             }
           ]
         }
