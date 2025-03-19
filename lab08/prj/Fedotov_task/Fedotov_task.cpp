@@ -9,11 +9,11 @@ using namespace std;
 void LogicaLexpression(double a, double b) {
     bool result = (a + 1 == b + 2);
     if ((a + 1 == b + 2) == true) {
-        cout << "Значення " << a << " + 1 == " << b << " + 2" << endl;
+        cout << "Значення " << a << " + 1 = " << b << " + 2" << endl;
         cout << "True" << endl;
     }
     else {
-        cout << "Значення " << a << " + 1 == " << b << " + 2" << endl;
+        cout << "Значення " << a << " + 1 = " << b << " + 2" << endl;
         cout << "False" << endl;
     }      
 }
@@ -44,7 +44,7 @@ int main() {
     cout << "x: " << dec << x << " (десяткова), 0x" << hex << (int)x << " (шістнадцяткова)" << endl;
     cout << "y: " << dec << y << " (десяткова), 0x" << hex << (int)y << " (шістнадцяткова)" << endl;
     cout << "z: " << dec << z << " (десяткова), 0x" << hex << (int)z << " (шістнадцяткова)" << endl;
-
+    system("pause");
 
     return 0;
 }
