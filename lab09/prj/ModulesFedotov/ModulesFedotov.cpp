@@ -41,3 +41,23 @@ string printWindSpeedInfo(int bofort) {
     return result.str(); 
 }
 
+string headCircumference(int headCircumference) {
+
+    stringstream result;
+    string size, category;
+
+    if (headCircumference >= 53 && headCircumference <= 54) { size = "XS"; category = "Дорослі"; }
+    else if (headCircumference >= 55 && headCircumference <= 56) { size = "S"; category = "Дорослі"; }
+    else if (headCircumference >= 57 && headCircumference <= 58) { size = "M"; category = "Дорослі"; }
+    else if (headCircumference >= 59 && headCircumference <= 60) { size = "L"; category = "Дорослі"; }
+    else if (headCircumference >= 61 && headCircumference <= 62) { size = "XL"; category = "Дорослі"; }
+    else if (headCircumference >= 48 && headCircumference <= 49) { size = "S"; category = "Діти"; }
+    else if (headCircumference >= 50 && headCircumference <= 51) { size = "M"; category = "Діти"; }
+    else if (headCircumference >= 52 && headCircumference <= 53) { size = "L"; category = "Діти"; }
+    else { size = "Розмір на знайдений!"; }
+
+    result << "Категорія: " << category << "\nРозмір шолома: " << size << endl;
+
+    return result.str();
+}
+
