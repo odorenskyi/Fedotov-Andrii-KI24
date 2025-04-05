@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AE02810-F84E-412F-8C1C-929805B2A236}|TestDriver_9.3.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\TestDriver_9.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9AE02810-F84E-412F-8C1C-929805B2A236}|TestDriver_9.3.vcxproj|C:\\Users\\Lenovo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\TestDriver_9.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9AE02810-F84E-412F-8C1C-929805B2A236}|TestDriver_9.3.vcxproj|solutionrelative:TestDriver_9.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -28,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestDriver_9.3.cpp",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\TestDriver_9.3.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\TestDriver_9.3.cpp",
               "RelativeDocumentMoniker": "TestDriver_9.3.cpp",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\TestDriver_9.3.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Fedotov-Andrii-KI24\\lab09\\prj\\TestDriver_9.3\\TestDriver_9.3.cpp",
               "RelativeToolTip": "TestDriver_9.3.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-05T09:48:12.206Z",
               "EditorCaption": ""
