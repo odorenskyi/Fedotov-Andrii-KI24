@@ -54,10 +54,25 @@ string headCircumference(int headCircumference) {
     else if (headCircumference >= 48 && headCircumference <= 49) { size = "S"; category = "Діти"; }
     else if (headCircumference >= 50 && headCircumference <= 51) { size = "M"; category = "Діти"; }
     else if (headCircumference >= 52 && headCircumference <= 53) { size = "L"; category = "Діти"; }
-    else { size = "Розмір на знайдений!"; }
+    else { size = "Розмір не знайдений!"; }
 
     result << "Категорія: " << category << "\nРозмір шолома: " << size << endl;
 
     return result.str();
 }
 
+unsigned int countBits(unsigned int number) {
+    if (number > 8999) {
+        return 0;
+    }
+
+    bool isD10Set = (number & (1 << 9)) != 0;
+    unsigned int count = 0;
+
+    for (int i = 0; i < 32; i++) {
+        bool bitIsSet = (number & (1 << i)) != 0;
+        count += (isD10Set ? bitIsSet : !bitIsSet) ? 1 : 0;
+    }
+
+    return count;
+}

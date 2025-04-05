@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FB7D411-D136-4146-B617-68A7E8BCDF99}|ModulesFedotov.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\ModulesFedotov.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8FB7D411-D136-4146-B617-68A7E8BCDF99}|ModulesFedotov.vcxproj|solutionrelative:ModulesFedotov.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FB7D411-D136-4146-B617-68A7E8BCDF99}|ModulesFedotov.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\ModulesFedotov.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8FB7D411-D136-4146-B617-68A7E8BCDF99}|ModulesFedotov.vcxproj|solutionrelative:ModulesFedotov.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB7D411-D136-4146-B617-68A7E8BCDF99}|ModulesFedotov.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\ModulesFedotov.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8FB7D411-D136-4146-B617-68A7E8BCDF99}|ModulesFedotov.vcxproj|solutionrelative:ModulesFedotov.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ModulesFedotov.h",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\ModulesFedotov.h",
               "RelativeDocumentMoniker": "ModulesFedotov.h",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\ModulesFedotov.h",
               "RelativeToolTip": "ModulesFedotov.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-18T19:10:15.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ModulesFedotov.cpp",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\ModulesFedotov.cpp",
               "RelativeDocumentMoniker": "ModulesFedotov.cpp",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab09\\prj\\ModulesFedotov\\ModulesFedotov.cpp",
               "RelativeToolTip": "ModulesFedotov.cpp",
-              "ViewState": "AgIAACAAAAAAAAAAAAAqwCsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T19:10:38.494Z",
+              "WhenOpened": "2025-04-04T23:42:53.223Z",
               "EditorCaption": ""
             }
           ]
