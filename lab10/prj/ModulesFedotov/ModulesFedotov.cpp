@@ -113,3 +113,68 @@ void processSentence(ifstream& input_file, ofstream& output_file) {
         output_file << "Помилка: вхідний файл порожній або не містить речення." << endl;
     }
 }
+void transliterateAndAppend(ifstream& input_file, ofstream& output_file) {
+    string content;
+    string line;
+    while (getline(input_file, line)) {
+        if (!line.empty() && line.back() == '\r') {
+            line.pop_back();
+        }
+        content += line + "\n";
+    }
+
+    string transliterated;
+    bool isWordStart = true;
+    for (size_t i = 0; i < content.length(); ++i) {
+        char c = content[i];
+        string lowerC(1, tolower(c));
+        string upperC(1, toupper(c));
+
+        if (c == 'А' || c == 'а') transliterated += (c == 'А' ? "A" : "a");
+        else if (c == 'Б' || c == 'б') transliterated += (c == 'Б' ? "B" : "b");
+        else if (c == 'В' || c == 'в') transliterated += (c == 'В' ? "V" : "v");
+        else if (c == 'Г' || c == 'г') transliterated += (c == 'Г' ? "H" : "h");
+        else if (c == 'Ґ' || c == 'ґ') transliterated += (c == 'Ґ' ? "G" : "g");
+        else if (c == 'Д' || c == 'д') transliterated += (c == 'Д' ? "D" : "d");
+        else if (c == 'Е' || c == 'е') transliterated += (c == 'Е' ? "E" : "e");
+        else if (c == 'Є' || c == 'є') transliterated += (isWordStart ? (c == 'Є' ? "Ye" : "ye") : (c == 'Є' ? "Ie" : "ie"));
+        else if (c == 'Ж' || c == 'ж') transliterated += (c == 'Ж' ? "Zh" : "zh");
+        else if (c == 'З' || c == 'з') transliterated += (c == 'З' ? "Z" : "z");
+        else if (c == 'И' || c == 'и') transliterated += (c == 'И' ? "Y" : "y");
+        else if (c == 'І' || c == 'і') transliterated += (c == 'І' ? "I" : "i");
+        else if (c == 'Ї' || c == 'ї') transliterated += (isWordStart ? (c == 'Ї' ? "Yi" : "yi") : (c == 'Ї' ? "I" : "i"));
+        else if (c == 'Й' || c == 'й') transliterated += (isWordStart ? (c == 'Й' ? "Y" : "y") : (c == 'Й' ? "I" : "i"));
+        else if (c == 'К' || c == 'к') transliterated += (c == 'К' ? "K" : "k");
+        else if (c == 'Л' || c == 'л') transliterated += (c == 'Л' ? "L" : "l");
+        else if (c == 'М' || c == 'м') transliterated += (c == 'М' ? "M" : "m");
+        else if (c == 'Н' || c == 'н') transliterated += (c == 'Н' ? "N" : "n");
+        else if (c == 'О' || c == 'о') transliterated += (c == 'О' ? "O" : "o");
+        else if (c == 'П' || c == 'п') transliterated += (c == 'П' ? "P" : "p");
+        else if (c == 'Р' || c == 'р') transliterated += (c == 'Р' ? "R" : "r");
+        else if (c == 'С' || c == 'с') transliterated += (c == 'С' ? "S" : "s");
+        else if (c == 'Т' || c == 'т') transliterated += (c == 'Т' ? "T" : "t");
+        else if (c == 'У' || c == 'у') transliterated += (c == 'У' ? "U" : "u");
+        else if (c == 'Ф' || c == 'ф') transliterated += (c == 'Ф' ? "F" : "f");
+        else if (c == 'Х' || c == 'х') transliterated += (c == 'Х' ? "Kh" : "kh");
+        else if (c == 'Ц' || c == 'ц') transliterated += (c == 'Ц' ? "Ts" : "ts");
+        else if (c == 'Ч' || c == 'ч') transliterated += (c == 'Ч' ? "Ch" : "ch");
+        else if (c == 'Ш' || c == 'ш') transliterated += (c == 'Ш' ? "Sh" : "sh");
+        else if (c == 'Щ' || c == 'щ') transliterated += (c == 'Щ' ? "Shch" : "shch");
+        else if (c == 'Ь' || c == 'ь') transliterated += "";
+        else if (c == 'Ю' || c == 'ю') transliterated += (isWordStart ? (c == 'Ю' ? "Yu" : "yu") : (c == 'Ю' ? "Iu" : "iu"));
+        else if (c == 'Я' || c == 'я') transliterated += (isWordStart ? (c == 'Я' ? "Ya" : "ya") : (c == 'Я' ? "Ia" : "ia"));
+        else if (c == '\'') transliterated += "";
+        else transliterated += c;
+
+        isWordStart = !isalpha(static_cast<unsigned char>(c)) && c != '\'';
+    }
+
+    time_t now = time(nullptr);
+    char timeStr[100];
+    struct tm timeInfo;
+    localtime_s(&timeInfo, &now);
+    strftime(timeStr, sizeof(timeStr), "%Y-%m-%d %H:%M:%S", &timeInfo);
+
+    output_file << "Транслітерований текст:\n" << transliterated;
+    output_file << "Дата й час дозапису: " << timeStr << "\n";
+}

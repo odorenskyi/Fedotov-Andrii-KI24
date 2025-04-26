@@ -6,3 +6,4 @@ string printWindSpeedInfo(int bofort);
 string headCircumference(int headCircumference);
 unsigned int countBits(unsigned int number);
 void processSentence(ifstream& input_file, ofstream& output_file);
+void transliterateAndAppend(ifstream& input_file, ofstream& output_file);
