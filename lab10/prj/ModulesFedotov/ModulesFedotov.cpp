@@ -178,3 +178,29 @@ void transliterateAndAppend(ifstream& input_file, ofstream& output_file) {
     output_file << "Транслітерований текст:\n" << transliterated;
     output_file << "Дата й час дозапису: " << timeStr << "\n";
 }
+void writeCalculationAndBinary(ifstream& input_file, ofstream& output_file) {
+    double x, y, z;
+    unsigned int b;
+    if (!(input_file >> x >> y >> z >> b)) {
+        output_file << "Помилка: не вдалося прочитати вхідні дані.\n";
+        return;
+    }
+
+    double result = s_calculation(x, y, z);
+
+    string binary = "";
+    unsigned int original_b = b;
+    if (b == 0) {
+        binary = "0";
+    }
+    else {
+        while (b > 0) {
+            binary = (b % 2 == 0 ? "0" : "1") + binary;
+            b /= 2;
+        }
+    }
+
+    output_file << "s_calculation(" << fixed << setprecision(6) << x << ", "
+        << y << ", " << z << ") = " << result << "\n";
+    output_file << "Число " << original_b << " у двійковому коді: " << binary << "\n";
+}
