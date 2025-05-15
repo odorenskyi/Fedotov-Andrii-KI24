@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AB5030A-A1F5-4D49-8E3D-DE86FB85B752}|ModulesBalan.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\ModulesBalan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9AB5030A-A1F5-4D49-8E3D-DE86FB85B752}|ModulesBalan.vcxproj|solutionrelative:ModulesBalan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9AB5030A-A1F5-4D49-8E3D-DE86FB85B752}|ModulesBalan.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\ModulesBalan.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9AB5030A-A1F5-4D49-8E3D-DE86FB85B752}|ModulesBalan.vcxproj|solutionrelative:ModulesBalan.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB5030A-A1F5-4D49-8E3D-DE86FB85B752}|ModulesBalan.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\ModulesBalan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9AB5030A-A1F5-4D49-8E3D-DE86FB85B752}|ModulesBalan.vcxproj|solutionrelative:ModulesBalan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AB5030A-A1F5-4D49-8E3D-DE86FB85B752}|ModulesBalan.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\struct_type_project_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ModulesBalan.cpp",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\ModulesBalan.cpp",
               "RelativeDocumentMoniker": "ModulesBalan.cpp",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\ModulesBalan.cpp",
               "RelativeToolTip": "ModulesBalan.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-09T12:59:04.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ModulesBalan.h",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\ModulesBalan.h",
               "RelativeDocumentMoniker": "ModulesBalan.h",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesBalan\\ModulesBalan.h",
               "RelativeToolTip": "ModulesBalan.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-09T12:57:18.611Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "struct_type_project_1.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-09T12:58:42.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T12:58:42.533Z"
             }
           ]
         }
