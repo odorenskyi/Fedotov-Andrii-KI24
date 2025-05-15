@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05000EC4-EB7A-4EFA-B4CF-3E225E2A4315}|ModulesSavelyev.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\ModulesSavelyev.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05000EC4-EB7A-4EFA-B4CF-3E225E2A4315}|ModulesSavelyev.vcxproj|solutionrelative:ModulesSavelyev.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05000EC4-EB7A-4EFA-B4CF-3E225E2A4315}|ModulesSavelyev.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\ModulesSavelyev.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05000EC4-EB7A-4EFA-B4CF-3E225E2A4315}|ModulesSavelyev.vcxproj|solutionrelative:ModulesSavelyev.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05000EC4-EB7A-4EFA-B4CF-3E225E2A4315}|ModulesSavelyev.vcxproj|C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\struct_type_project_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05000EC4-EB7A-4EFA-B4CF-3E225E2A4315}|ModulesSavelyev.vcxproj|solutionrelative:struct_type_project_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "struct_type_project_1.h",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\struct_type_project_1.h",
+              "RelativeDocumentMoniker": "struct_type_project_1.h",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\struct_type_project_1.h",
+              "RelativeToolTip": "struct_type_project_1.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T13:08:04.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModulesSavelyev.cpp",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\ModulesSavelyev.cpp",
+              "RelativeDocumentMoniker": "ModulesSavelyev.cpp",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\ModulesSavelyev.cpp*",
+              "RelativeToolTip": "ModulesSavelyev.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-09T13:07:50.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModulesSavelyev.h",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\ModulesSavelyev.h",
+              "RelativeDocumentMoniker": "ModulesSavelyev.h",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Fedotov-Andrii-KI24\\lab11\\prj\\ModulesSavelyev\\ModulesSavelyev.h",
+              "RelativeToolTip": "ModulesSavelyev.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T13:06:10.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
