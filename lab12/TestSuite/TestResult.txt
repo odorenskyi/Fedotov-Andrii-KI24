@@ -1,0 +1,15 @@
+test ¹1 (Area) -> passed
+test ¹1 (Perimeter) -> passed
+
+test ¹2 (Area) -> passed
+test ¹2 (Perimeter) -> passed
+
+test ¹3 (Area) -> passed
+test ¹3 (Perimeter) -> passed
+
+test ¹4 (Area) -> passed
+test ¹4 (Perimeter) -> passed
+
+test ¹5 (Area) -> passed
+test ¹5 (Perimeter) -> passed
+
